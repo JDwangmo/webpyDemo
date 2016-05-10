@@ -1,0 +1,2 @@
+该项目只是一个demo，关于web.py python包的使用实例
+run.sh脚本三shell脚本，用于将python以守护进程的形式运行
