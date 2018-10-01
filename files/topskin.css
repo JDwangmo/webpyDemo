@@ -1,0 +1,105 @@
+@charset "utf-8";
+.kfoutbox img {display:inline;border:0 none;}
+.kfoutbox{clear: both;position: absolute; z-index:10000;margin: 0px;}
+.kfoutbox .kfboxmenu{width:29px; height:180px; background:url(r.png) no-repeat;margin: 0px;}
+.kfoutbox .kfboxmenuleft{background:url(l.png) no-repeat;margin: 0px;}
+
+.kfoutbox .kfbox{height:auto; width:39px; overflow:hidden; font-size:12px; text-align:center; font-family:"宋体",Verdana, Geneva, sans-serif;margin: 0px;}
+.kfoutbox .kfbox a{text-decoration:none; color:#666666;}
+.kfoutbox .kfbox img{border:none;VERTICAL-ALIGN: bottom}
+.kfoutbox .kfbox .kf54kefuqqtop{width:39px; margin: 0px; padding: 0px;}
+.kfoutbox .kfbox .kf54kefuqqtop img{
+	margin: 0px;
+	padding: 0px;
+}
+.kfoutbox .kfbox .kf54kefuqqtop .kfboxclose{
+background:url(../cc.png) no-repeat;width:10px; height:10px; position:absolute; top:0px; right:0px; cursor:pointer; overflow: hidden;text-align:right;
+}
+.kfoutbox .kfbox .kf54kefuqqinfo{
+	height:25px;
+	line-height:25px;
+	font-weight:700;
+	padding-right: 3px;
+	padding-left: 3px;
+	margin: 0px;background-repeat: repeat-y;
+}
+.kfoutbox .kfbox .kf54kefuqqbg{
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;background-repeat: repeat-y;
+}
+.kfoutbox .kfbox .who{clear:both; text-align:right; font-size:9px; padding-right:3px; margin-top:5px;}
+.kfoutbox .kfbox .kf54kefuqqbottom{
+	margin: 0px;
+	padding: 0px;
+}
+.kfoutbox .kfbox .kf54kefuqqbg .kefu54kefunetli{
+	list-style-type:none;
+	float: left;
+	padding-left: 14px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	font-family: "宋体";
+	font-size: 12px;
+	width: 30px;
+	text-align: left;
+	line-height: 35px;
+	background-repeat: repeat-y;
+	overflow: hidden;
+	margin-top: 6px;margin-bottom: 6px;	
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.kfoutbox .kfbox .kf54kefuqqbg .kefu54kefunetli p{
+	margin: 0px;
+	padding: 0px;
+}
+.kfoutbox .kfbox .kf54kefuqqbg .kefu54kefunetgroup{
+	list-style-type:none;
+	margin: 0px;
+	float: left;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-family: "宋体";
+	font-size: 12px;
+	text-align: left;
+	background-repeat: repeat-y;	
+}
+.kfoutbox .kfbox .kf54kefuqqbg .kefu54kefunetgroup p{
+	margin: 0px;
+	padding: 0px;
+}
+.kfoutbox .kfbox .kf54kefuqqbg .kefu54kefunetli .kefu54kefunetpicimg {
+	text-indent: 0px;
+	float: left;
+	margin-left: 0px;
+	padding: 0px;
+}
+.kfoutbox .kfbox .kf54kefuqqbg .kefu54kefunetli .kefu54kefunettxt {
+	margin: 0px;
+	padding: 0px;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;display:none;	
+}
+.kfoutbox .kfbox .kf54kefuqqbg .kefu54kefunetli .kefu54kefunetmycode {
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+.kfoutbox .kfbox .kf54kefuqqbg .kefu54kefunetli .kefu54kefunetpicimgcenter {
+	float: left;
+	text-align: center;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}

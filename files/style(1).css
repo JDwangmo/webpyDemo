@@ -1,0 +1,72 @@
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.gcenter {
+	MARGIN: 15px auto; WIDTH: 960px;border: 1px solid #CCCCCC;
+}
+.input {
+	font-size: 12px;height:24px; line-height:24px;
+	border: 1px solid #CCCCCC;
+	background-color: transparent;
+	width: 200px;
+}
+
+.bmit {
+	font-size: 14px; font-weight:bolder;
+	border: 1px solid #CCCCCC;
+	background-color: #ff9900;
+	width: 100px; height:35px;color: #FFFFFF;
+}
+
+.text{
+	font-size: 12px;
+	border: 1px solid #CCCCCC;
+	background-color: transparent;
+}
+.gb-say{
+	font-size: 12px; line-height:22px; padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px;
+}
+
+.gb-xie{
+	border:1px solid #EEEEEE; margin-top:20px; overflow: hidden;
+}
+
+.gb-bt{
+	font-size: 12px; height:22px; line-height:22px; padding:5px;
+}
+.gb-sp{
+	font-size: 12px; line-height:20px; border-top:1px dotted #CCCCCC;padding-left:10px; background:#FDF6E0;  margin-top:10px; margin-right:10px; padding-top:5px; overflow: hidden;
+}
+.gb-sp p{
+	margin-bottom:5px;
+}
+.gb-lou{
+	font-size: 12px; color:#FFFFFF;
+}
+.b-yp2{
+	font-size: 12px; line-height:22px; border-top:1px solid #CCCCCC;border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;  padding-top:10px; overflow: hidden;
+}
+.xiaoff{
+	background:#f8f8fa;  /* background:#f2f2f2 url(xiaoof.gif) center top no-repeat; */
+}
+.ikefan{
+	font-size:28px; font-family: "ºÚÌå" Arial, Helvetica, sans-serif; font-weight: bolder; line-height:50px; height:50px; color:#FFFFFF; padding-left:10px; background:#CC0000;
+}
+.xkefan{
+	font-size:28px; font-family: "ºÚÌå" Arial, Helvetica, sans-serif; font-weight: bolder; line-height:40px; height:40px; color:#FFFFFF; padding-left:10px;
+}
+.ekefan{
+	font-size:24px; font-weight: normal; line-height:50px; height:50px; color:#333;padding-left:10px;
+}
+.ixkefan{
+	font-size:24px; font-weight: normal; line-height:40px; height:40px; color:#FFFFFF;padding-left:10px;
+}	
+.fanye{
+	border-top:#CCCCCC 1px dashed; margin-bottom:10px; padding-top:10px;
+}
+.ikeff {
+	background:url(images/rwu.jpg) no-repeat right bottom; }
+#center{
+text-align:center}
+#center img{
+width:775px}
