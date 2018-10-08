@@ -27,15 +27,30 @@ urls = (
 )
 app = web.application(urls, globals())
 
+db = web.database(dbn='postgres', db='exampledb', user='dbuser', pw='wangwang')
 
 # ssl_cert = 'ssl_crt/server.crt'
 # ssl_key = 'ssl_crt/server.key'
 # CherryPyWSGIServer.ssl_certificate = ssl_cert
 # CherryPyWSGIServer.ssl_private_key = ssl_key
 
+
 class files:
     def GET(self, file):
+
+        cType = {
+            "png": "images/png",
+            "jpg": "images/jpeg",
+            "gif": "images/gif",
+            "ico": "images/x-icon",
+            "js": "text/javascript",
+            "css": "text/css",
+            "html": "text/html",
+        }
+        # print(file, file.split('.')[-1])
         try:
+            web.header("Content-Type", cType.get(file.split('.')[-1], 'text/text'))  # Set the Header
+
             f = open('files/' + file, 'r')
             return f.read()
         except:
@@ -66,7 +81,7 @@ class images:
 
         if name in os.listdir('images'):  # Security
             web.header("Content-Type", cType[ext])  # Set the Header
-            print(name)
+            # print(name)
             return open('images/%s' % name, "rb").read()  # Notice 'rb' for reading images
         else:
             raise web.notfound()
@@ -80,9 +95,15 @@ class submit:
         if not f.validates(source=data):
             return render.hello('world')
         else:
+            out_str = {}
             for input in simple_form.inputs:
-                print input.name, f.d.get(input.name)
-
+                # out_str += '%s:%s\t' %(input.name, f.d.get(input.name))
+                out_str[input.name] = f.d.get(input.name)
+            sequence_id = db.insert('yichutang_log',
+                                    date=web.SQLLiteral("NOW()"),
+                                    **out_str
+                                    )
+            print(out_str)
             return render.submit_res_page()
 
 
